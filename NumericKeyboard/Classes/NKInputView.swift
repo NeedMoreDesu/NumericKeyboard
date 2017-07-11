@@ -309,7 +309,7 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
       bDot.isHidden = true
     }
     
-    bDot.setTitle((Locale.current as NSLocale).object(forKey: NSLocale.Key.decimalSeparator) as? String, for: UIControlState.normal)
+    bDot.setTitle(".", for: UIControlState.normal)
   }
   
   // Remove the Undo/Redo toolbar
@@ -367,7 +367,7 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
     
     switch sender.tag {
     case let (x) where x < 12:
-      let decimalChar = (Locale.current as NSLocale).object(forKey: NSLocale.Key.decimalSeparator) as? String ?? "."
+      let decimalChar = "."
       let buttonsValues = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", decimalChar, "+"]
       let char = buttonsValues[sender.tag]
       textView?.insertText(char)
