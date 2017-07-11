@@ -15,10 +15,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0O-fJ-CYU" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
-                    <rect key="frame" x="244" y="17" width="80" height="50"/>
+                    <rect key="frame" x="244" y="17" width="80" height="60"/>
                     <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="50" id="EHA-CI-9h9"/>
+                        <constraint firstAttribute="height" constant="60" id="EHA-CI-9h9"/>
                         <constraint firstAttribute="width" constant="80" id="dPV-3H-6v7"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
@@ -38,7 +38,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRG-jj-cDY" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
-                    <rect key="frame" x="344" y="17" width="80" height="50"/>
+                    <rect key="frame" x="344" y="17" width="80" height="60"/>
                     <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                     <state key="normal" title="2">
@@ -57,7 +57,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdp-oH-mXS" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
-                    <rect key="frame" x="444" y="17" width="80" height="50"/>
+                    <rect key="frame" x="444" y="17" width="80" height="60"/>
                     <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                     <state key="normal" title="3">
@@ -100,7 +100,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEW-66-qQt" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
-                    <rect key="frame" x="344" y="169" width="80" height="50"/>
+                    <rect key="frame" x="344" y="164" width="80" height="60"/>
                     <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                     <state key="normal" title="8">
@@ -119,7 +119,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lC4-EB-Q98" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
-                    <rect key="frame" x="444" y="169" width="80" height="50"/>
+                    <rect key="frame" x="444" y="164" width="80" height="60"/>
                     <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                     <state key="normal" title="9">
@@ -138,7 +138,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZI-aM-QDM" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
-                    <rect key="frame" x="344" y="244" width="80" height="50"/>
+                    <rect key="frame" x="344" y="239" width="80" height="60"/>
                     <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                     <state key="normal" title="0">
@@ -204,7 +204,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbg-g1-63I" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
-                    <rect key="frame" x="244" y="169" width="80" height="50"/>
+                    <rect key="frame" x="244" y="164" width="80" height="60"/>
                     <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                     <state key="normal" title="7">
@@ -223,7 +223,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVV-wm-yN2" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
-                    <rect key="frame" x="444" y="244" width="80" height="50"/>
+                    <rect key="frame" x="444" y="239" width="80" height="60"/>
                     <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                     <state key="normal" title=".">
@@ -250,7 +250,7 @@
                     </constraints>
                 </view>
                 <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfJ-tP-FLt" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
-                    <rect key="frame" x="244" y="95" width="80" height="50"/>
+                    <rect key="frame" x="244" y="90" width="80" height="60"/>
                     <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                     <state key="normal" title="4">
@@ -269,7 +269,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4k-T7-cfU" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
-                    <rect key="frame" x="344" y="95" width="80" height="50"/>
+                    <rect key="frame" x="344" y="90" width="80" height="60"/>
                     <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                     <state key="normal" title="5">
@@ -288,7 +288,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBh-n8-4YM" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
-                    <rect key="frame" x="444" y="95" width="80" height="50"/>
+                    <rect key="frame" x="444" y="90" width="80" height="60"/>
                     <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                     <state key="normal" title="6">
@@ -391,7 +391,7 @@
                     </userDefinedRuntimeAttributes>
                 </button>
                 <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHB-9R-CP7" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
-                    <rect key="frame" x="244" y="244" width="80" height="50"/>
+                    <rect key="frame" x="244" y="239" width="80" height="60"/>
                     <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                     <state key="normal" title="+">
